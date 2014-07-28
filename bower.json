@@ -1,0 +1,31 @@
+{
+  "name": "meizu-tenpay",
+  "version": "1.0.0",
+  "authors": [
+    "liu.xing <kissliux@qq.com>"
+  ],
+  "description": "魅族和财付通合作项目",
+  "main": "default.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "web",
+    "template",
+    "css",
+    "html"
+  ],
+  "license": "MIT",
+  "homepage": "kissliux.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1"
+  }
+}

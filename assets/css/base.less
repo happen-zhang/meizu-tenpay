@@ -1,0 +1,88 @@
+@content-width:960px;
+
+html{
+  width:100%;
+}
+body{
+  position: relative;
+}
+a{
+  text-decoration: none;
+}
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.68;
+  font-weight: 400;
+  font-family: Helvetica, Tahoma, Arial, 'Hiragino Sans GB', "冬青黑体", "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", SimSun, "宋体", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 0;
+  padding: 0;
+  line-height: 1.68;
+}
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+//内容居中通用代码
+.content-center{
+  margin: 0 auto;
+  width: @content-width;
+  height: 100%;
+
+}
+
+#menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.nav{
+  list-style: none;
+  background: #fff;
+  .content-center;
+}
+.navbar-nav {
+  & > li{
+    float: left;
+    padding: 10px 10px;
+
+    &.active{
+      border-bottom: #f00 2px solid;
+    }
+    & > a{
+      padding: 15px 10px;
+      line-height: 20px;
+      font-weight: 500;
+      color: #563d7c;
+    }
+  }
+}
+.row{
+  border: 1px solid #0f0;
+  height: 500px;
+}
+
+#topic{
+  margin-top: 50px
+}
+.content{
+  .content-center;
+}
+
+

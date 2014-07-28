@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>笔戈前端模板</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="描述" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="max-age=7200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/base-min.css">
+    <link rel="stylesheet" href="assets/css/base.css" media="all">
+
+    <link rel="stylesheet" href="assets/css/index1.css" media="all">
+    <link rel="stylesheet" href="assets/css/index2.css" media="all">
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+  <!-- 菜单栏 -->
+    <header id="menu" class="navbar navbar-default navbar-fixed-top">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#topic">活动主题</a>
+        </li>
+        <li>
+          <a href="#content">活动内容</a>
+        </li>
+        <li>
+          <a href="#intro">理财通介绍</a>
+        </li>
+        <li>
+          <a href="#detail">活动详情</a>
+        </li>
+      </ul>
+    </header>
+  <!-- 正文主题 -->
+
+    <section id="topic" class="row"></section>
+    <section id="content" class="row"></section>
+    <section id="intro" class="row">
+      <div class="video content">
+        <iframe frameborder=0 src="http://v.qq.com/iframe/player.html?vid=f0132g9wpfo&tiny=0&auto=0" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="detail" class="row">
+      <div class="content">
+        <div class="time-item">
+            <span id="day_show">0天</span>
+            <strong id="hour_show">0时</strong>
+            <strong id="minute_show">0分</strong>
+            <strong id="second_show">0秒</strong>
+        </div>
+      </div>
+    </section>
+  <!-- 页脚 -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
